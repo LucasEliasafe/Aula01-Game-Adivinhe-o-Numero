@@ -46,6 +46,10 @@ public class GuessTheNumber {
 
         System.out.println("Tente adivinhas o número entra 1 e " + maxNumber + ":");
 
+        while (!hasGuessedCorrectly) {
+
+
+        }
 
     }
 
