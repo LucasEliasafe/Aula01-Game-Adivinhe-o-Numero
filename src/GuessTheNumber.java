@@ -34,7 +34,18 @@ public class GuessTheNumber {
                 System.out.println("Escolha inválida. Tente novamente.");
                 startGame();
                 break;
+
         }
+
+    }
+
+    private static void playGame(int maxNumber) {
+        int numbertoGuess = random.nextInt(maxNumber) + 1;
+        boolean hasGuessedCorrectly = false;
+        int attempts = 0;
+
+        System.out.println("Tente adivinhas o número entra 1 e " + maxNumber + ":");
+
 
     }
 
